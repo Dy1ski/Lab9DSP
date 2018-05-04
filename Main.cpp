@@ -40,12 +40,11 @@ int main()
 	lList.push_front(s2);
 	lList.push_front(s1);
 
-	//// iterate from the top
-	//cout << "top to bottom: " << llist.size() << " elements" << endl;
-	//for (list<string>::iterator iter = llist.getiterator(); iter != iter.end(); iter++)
-	//{
-	//	cout << "a list element: " << *iter << endl;
-	//}
+	cout << "top to bottom: " << lList.size() << " elements" << endl;
+	for (List<string>::Iterator iter = lList.getIterator(); iter != iter.end(); iter++)
+	{
+		cout << "a list element: " << *iter << endl;
+	}
 
 #endif
 //
